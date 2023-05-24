@@ -186,6 +186,20 @@
     </div>
     <!-- Contact End -->
 
+    <h1>Formulário de Comentários</h1>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required><br>
+  
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required><br>
+  
+      <label for="comentario">Comentário:</label><br>
+      <textarea id="comentario" name="comentario" rows="5" required></textarea><br>
+  
+      <input type="button" value="Enviar Comentário" onclick="enviarComentario()">
+    </form>
+
 
      <!-- Footer Start -->
      <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
