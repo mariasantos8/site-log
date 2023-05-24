@@ -98,19 +98,3 @@ setInterval(() => {
   logo.style.animation = 'changeColor 5s linear infinite';
 }, 10000);
 
-function enviarComentario() {
-  // Obtenha os valores dos campos de entrada
-  var nome = document.getElementById('nome').value;
-  var email = document.getElementById('email').value;
-  var comentario = document.getElementById('comentario').value;
-
-  // Construa o URL do link de e-mail
-  var linkEmail = 'yohanasabrina4@gmail.com' +
-                  '?subject=' + encodeURIComponent('Novo Comentário') +
-                  '&body=' + encodeURIComponent('Nome: ' + nome + '\n' +
-                                                'E-mail: ' + email + '\n' +
-                                                'Comentário: ' + comentario);
-
-  // Redirecione para o link de e-mail
-  window.location.href = linkEmail;
-}
