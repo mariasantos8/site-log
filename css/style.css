@@ -458,10 +458,29 @@
 
 
 
-
 #search-form {
     margin-bottom: 10px;
 }
+form {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 2px;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+}
+
+form button {
+    cursor: pointer;
+    background: none;
+    color: black;
+}
+
+
 
 
 
