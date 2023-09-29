@@ -483,8 +483,8 @@ form button {
     font-size: 20px;
 }
 .fotos{
-    height: auto;
-    width: 150%;
+    height: 150%;
+    width: auto;
 }
 
 
