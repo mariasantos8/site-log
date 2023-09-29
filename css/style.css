@@ -482,6 +482,10 @@ form button {
 .text{
     font-size: 20px;
 }
+.fotos{
+    height: auto;
+    width: 150%;
+}
 
 
 
